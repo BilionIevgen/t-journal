@@ -1,5 +1,5 @@
 import { Box, Button } from "@material-ui/core";
-import { WhatshotOutlined, MessageOutlined, TrendingUpOutlined } from "@material-ui/icons";
+import { WhatshotOutlined, MessageOutlined, TrendingUpOutlined, ListAltOutlined } from "@material-ui/icons";
 import styles from "./LeftMenu.module.scss";
 
 export const  LeftMenu: React.FC = () => {
@@ -14,6 +14,9 @@ export const  LeftMenu: React.FC = () => {
                 </li>
                 <li>
                     <Button><TrendingUpOutlined/>Рейтинг</Button>
+                </li>
+                <li>
+                    <Button><ListAltOutlined/>Подписки</Button>
                 </li>
             </ul>
         </Box>
